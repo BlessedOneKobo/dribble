@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Look Of Autumn</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: sans-serif;
+      background-color: #884e28;
+    }
+    .container {
+      border: 5px solid #000;
+      background-color: #fff;
+      width: 1200px;
+      height: 560px;
+      margin: 2em auto;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 10px 10px 20px #0000009e, -5px -2.5px 20px #0000009e;
+    }
+    aside {
+      position: absolute;
+      width: 50%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+    }
+    aside img {
+      position: absolute;
+      width: 100%;
+    }
+    main {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 50%;
+      padding-left: 2em;
+    }
+    main section {
+      text-transform: uppercase;
+      width: 65%;
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+    }
+    main section h1 {
+      font-size: 5em;
+    }
+    main header {
+      position: absolute;
+      top: 1em;
+      left: 0;
+    }
+    main footer {
+      position: absolute;
+      bottom: 1em;
+      left: 0;
+      right: 0;
+    }
+    ul.nav {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      font-size: .95em;
+    }
+    ul.nav li {
+      display: inline-block;
+      margin-left: 2em;
+    }
+    ul.nav li a {
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+      letter-spacing: .02em;
+    }
+    ul.nav li a:hover {
+      text-decoration: underline;
+    }
+    footer ul.nav li:last-of-type {
+      position: absolute;
+      right: 10%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <img src="banner.jpg">
+    </aside>
+    <main>
+      <header>
+        <ul class="nav">
+          <li><a href="#">vproduct</a></li>
+          <li><a href="#">discovery</a></li>
+          <li><a href="#">description</a></li>
+        </ul>
+      </header>
+
+      <section>
+        <h1>The Look of Autumn</h1>
+      </section>
+
+      <footer>
+        <ul class="nav">
+          <li><a href="#">product development</a></li>
+          <li><a href="#">enterprise</a></li>
+        </ul>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
